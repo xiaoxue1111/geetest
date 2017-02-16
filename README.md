@@ -5,18 +5,18 @@
 http://www.geetest.com/     官网地址
 
 step1：引用
-
+```
 <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
 <script src="http://static.geetest.com/static/tools/gt.js"></script>
-
+```
 注意，如果您的网站使用https，则只需要将引入极验库的地方换成https协议即可，同时在初始化的参数中添加https为true。例如SDK中的demo要使用https，则将以下代码：
-
+```
 <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 <script src="http://static.geetest.com/static/tools/gt.js"></script>
-
+```
 
 step2：调用
-
+```
 <script>
    $.ajax({
           // 获取id，challenge，success（是否启用failback）
@@ -61,4 +61,5 @@ step2：调用
    }   
         
 </script>
+```
 config的配置参数见  http://www.geetest.com/install/sections/idx-client-sdk.html#web
