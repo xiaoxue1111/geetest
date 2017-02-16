@@ -52,7 +52,7 @@ step2：调用
                     geetest_seccode: 'xxx'
                 }
               注：有时候获取不到以上对象，可以选择动态获取这三个值
-              例： var geetest_challenge = $('position'）.find('').find('')
+              例： var geetest_challenge = $('position'）.find('').find('')其他两个同理
             
          })
          
@@ -61,10 +61,4 @@ step2：调用
    }   
         
 </script>
-
-
-config配置参数：
-
-1.gt：用户在极验后台申请的验证码ID（字符串类型）
-2.challenge：验证事件流水号（字符串类型）
-3
+config的配置参数见  http://www.geetest.com/install/sections/idx-client-sdk.html#web
